@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - wd-sync > wd > request > hawk:
+        patched: '2022-10-07T22:03:28.930Z'
+  'npm:http-signature:20150122':
+    - wd-sync > wd > request > http-signature:
+        patched: '2022-10-07T22:03:28.930Z'
+  'npm:mime:20170907':
+    - wd-sync > wd > request > mime:
+        patched: '2022-10-07T22:03:28.930Z'
+    - wd-sync > wd > request > form-data > mime:
+        patched: '2022-10-07T22:03:28.930Z'
+  'npm:minimatch:20160620':
+    - wd-sync > wd > archiver > file-utils > minimatch:
+        patched: '2022-10-07T22:03:28.930Z'
+    - wd-sync > wd > archiver > file-utils > glob > minimatch:
+        patched: '2022-10-07T22:03:28.930Z'
+    - wd-sync > wd > archiver > file-utils > findup-sync > glob > minimatch:
+        patched: '2022-10-07T22:03:28.930Z'
+  'npm:qs:20140806-1':
+    - wd-sync > wd > request > qs:
+        patched: '2022-10-07T22:03:28.930Z'
+  'npm:request:20160119':
+    - wd-sync > wd > request:
+        patched: '2022-10-07T22:03:28.930Z'
+  'npm:tunnel-agent:20170305':
+    - wd-sync > wd > request > tunnel-agent:
+        patched: '2022-10-07T22:03:28.930Z'
